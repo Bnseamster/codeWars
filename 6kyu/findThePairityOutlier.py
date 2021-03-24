@@ -9,7 +9,6 @@ def find_outlier(integers):
         elif int%2 == 1:
             countO += 1
         
-        print(countO)
         
         if countE > 1:
             for num in integers:
